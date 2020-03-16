@@ -1,0 +1,21 @@
+# Kubernetes
+alias k='kubectl'
+alias kg='kubectl get'
+alias kpo='kubectl get pods '
+alias kgp='kubectl get pods '
+alias kgno='kubectl get nodes'
+alias kgd='kubectl get deploy '
+alias kgds='kubectl get ds '
+alias kgn='kubectl get ns'
+alias kex='kubectl exec '
+alias klo='kubectl logs '
+alias kd='kubectl describe'
+alias kdp='kubectl describe pod '
+alias kdd='kubectl describe deploy'
+alias kdno='kubectl describe node'
+alias kdelpo='kubectl delete pod '
+alias kdelse='kubectl delete secret '
+alias kdebug="kubectl run --generator='run-pod/v1' debug --image=busybox -it --rm --restart=Never -- sh"
+
+# Docker
+alias d="docker"
